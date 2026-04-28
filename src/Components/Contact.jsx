@@ -54,7 +54,7 @@ const Contact = () => {
                         </form>
 
                         <div className="">
-                            <img src="https://i.pinimg.com/736x/b9/41/b8/b941b8453486e3d07674b9ab1c81fe84.jpg" alt="" className='h-screen w-full object-cover rounded-md' />
+                            <img src="https://i.pinimg.com/736x/b9/41/b8/b941b8453486e3d07674b9ab1c81fe84.jpg" alt="" className='h-screen w-full object-cover rounded-md'   decoding="async" loading='lazy'/>
                         </div>
                     </div>
                 </div>

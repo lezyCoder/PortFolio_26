@@ -66,6 +66,8 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.name}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-56 object-cover group-hover:scale-110 transition duration-500"
               />
             </div>
