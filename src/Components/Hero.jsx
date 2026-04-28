@@ -2,6 +2,7 @@ import React from 'react'
 import user from '../assets/user.png';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+
 const Hero = () => {
     return (
         <div id='home'>
@@ -27,9 +28,9 @@ const Hero = () => {
                     />
                 </div>
 
-                <div className="contact-links absolute left-0 bottom-30 flex  items-center gap-10">
+                <div className="contact-links absolute left-0 bottom-35 flex  items-center gap-10">
                     <button className='border text-gray-300 rounded-md  px-4 py-2 hover:bg-zinc-300 hover:text-zinc-800 cursor-pointer '>
-                        Download CV
+                       <a href="/Vijaysingh_Maurya_Resume.pdf"> Download CV</a>
                     </button>
                     <a href="https://www.linkedin.com/in/iamvijay23/">
                         <FaLinkedin className='hover:text-gray-300 text-4xl' /></a>
