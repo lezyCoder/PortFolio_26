@@ -43,7 +43,7 @@ const Services = () => {
         {data.map((item) => (
           <div
             key={item.id}
-            className=" group rounded-2xl border border-gray-700 bg-gradient-to-b from-zinc-900 to-zinc-800 p-6 
+            className="group rounded-2xl border border-gray-700 bg-gradient-to-b from-zinc-900 to-zinc-800 p-6 
                        hover:scale-105 hover:border-gray-500 transition-all duration-300 cursor-pointer"
           >
             <div className="flex flex-col h-full justify-between">

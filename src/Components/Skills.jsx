@@ -26,7 +26,7 @@ const Skills = () => {
     ]
 
     return (
-        <section id="skills" className="py-20 px-6 md:px-16">
+        <section id="skills" className="py-20 px-6 md:px-16 h-screen">
 
             {/* Heading */}
             <div className="text-center max-w-2xl mx-auto">
@@ -39,7 +39,7 @@ const Skills = () => {
             </div>
 
             {/* Cards */}
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-28">
                 {data.map((item) => (
                     <div
                         key={item.id}
