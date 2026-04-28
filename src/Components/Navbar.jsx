@@ -22,7 +22,7 @@ const Navbar = () => {
                 ))}
             </ul>
 
-            <button className='border border-gray-700 rounded-xl px-4 py-2 hover:bg-zinc-300 hover:text-zinc-800 cursor-pointer'>
+            <button className='border border-gray-700 rounded-md px-4 py-2 hover:bg-zinc-300 hover:text-zinc-800 cursor-pointer'>
                 <a href="#contact">Let's talk</a>
             </button>
 
